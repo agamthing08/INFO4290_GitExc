@@ -13,6 +13,7 @@ public class PlayerFileProcessor {
 			    System.out.println("2. Sort Player Data");
 			    System.out.println("3. Merge Files");
 			    System.out.println("4. Exit");
+                System.out.println("5. Support");
 			    System.out.print("Enter your choice: ");
 			  
 			    choice = scanner.nextInt();
@@ -30,7 +31,10 @@ public class PlayerFileProcessor {
 			            break;
 			        case 4:
 			            System.out.println("Exiting program.");
-			            break;                   
+			            break;   
+                    case 5:
+			            System.out.println("Exiting program.");
+			            break;                 
 			        default:
 			            System.out.println("Invalid choice. Please enter a valid option.");
 			    }
