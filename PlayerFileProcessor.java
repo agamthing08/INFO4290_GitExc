@@ -33,7 +33,7 @@ public class PlayerFileProcessor {
 			            System.out.println("Exiting program.");
 			            break;   
                     case 5:
-			            System.out.println("Exiting program.");
+			            System.out.println("Support.");
 			            break;                 
 			        default:
 			            System.out.println("Invalid choice. Please enter a valid option.");
