@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 //main branch
 //branch03
-//
+//Here is an inline comment for the Git Assignment
 public class PlayerFileProcessor {
     public static void main(String[] args) throws FileNotFoundException {
         try (Scanner scanner = new Scanner(System.in)) {
